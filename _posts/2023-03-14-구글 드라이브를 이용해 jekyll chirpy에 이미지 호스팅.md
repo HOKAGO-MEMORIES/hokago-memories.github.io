@@ -64,12 +64,13 @@ tags : [jekyll, chirpy, github pages, google drive, 구글 드라이브, 클라�
 
 
 주황색 부분을 복사한 다음에...  
-> https://drive.google.com/uc?export=view&id=` 이곳에 붙여넣기 `
+> https://drive.google.com/uc?export=view&id= `이곳에 붙여넣기`
 >
 > 위 이미지를 이 링크처럼 만들면...  
 > https://drive.google.com/uc?export=view&id=`1-dIFvBLumCeSCDlQzOwYvxPNM8jglEz9`
   
 
+## **완성!**
 
 ![완성이미지](https://drive.google.com/uc?export=view&id=1-dIFvBLumCeSCDlQzOwYvxPNM8jglEz9)
 
