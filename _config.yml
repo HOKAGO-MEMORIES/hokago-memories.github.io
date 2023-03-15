@@ -24,7 +24,7 @@ title: hokago-blog                          # the main title
 tagline: maybe sub-title   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  방과후에 이곳에서
+  방과후에 이곳에서.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://hokago-memories.github.io'
