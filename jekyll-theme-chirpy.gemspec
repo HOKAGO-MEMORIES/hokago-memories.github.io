@@ -2,11 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-chirpy"
-<<<<<<< HEAD
-  spec.version       = "5.6.1"
-=======
   spec.version       = "5.5.1"
->>>>>>> parent of 3b89bf1 (chore(release): 5.5.2)
   spec.authors       = ["Cotes Chung"]
   spec.email         = ["cotes.chung@gmail.com"]
 
