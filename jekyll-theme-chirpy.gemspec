@@ -2,16 +2,20 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-chirpy"
-  spec.version       = "6.4.2"
+<<<<<<< HEAD
+  spec.version       = "5.6.1"
+=======
+  spec.version       = "5.5.1"
+>>>>>>> parent of 3b89bf1 (chore(release): 5.5.2)
   spec.authors       = ["Cotes Chung"]
   spec.email         = ["cotes.chung@gmail.com"]
 
-  spec.summary       = "A minimal, responsive, and feature-rich Jekyll theme for technical writing."
+  spec.summary       = "A minimal, responsive and feature-rich Jekyll theme for technical writing."
   spec.homepage      = "https://github.com/cotes2020/jekyll-theme-chirpy"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f|
-    f.match(%r!^((_(includes|layouts|sass|(data\/(locales|origin)))|assets)\/|README|LICENSE)!i)
+    f.match(%r!^((_(includes|layouts|sass|data)|assets)\/|README|LICENSE)!i)
   }
 
   spec.metadata = {
@@ -23,14 +27,13 @@ Gem::Specification.new do |spec|
     "plugin_type"       => "theme"
   }
 
-  spec.required_ruby_version = ">= 3.0"
+  spec.required_ruby_version = ">= 2.6"
 
   spec.add_runtime_dependency "jekyll", "~> 4.3"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.16"
-  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.8"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.7"
   spec.add_runtime_dependency "jekyll-archives", "~> 2.2"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
-  spec.add_runtime_dependency "jekyll-include-cache", "~> 0.2"
 
 end
