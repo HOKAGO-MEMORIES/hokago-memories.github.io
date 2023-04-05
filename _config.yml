@@ -194,7 +194,7 @@ exclude:
   - CHANGELOG.md
   - LICENSE
   - rollup.config.js
- # - gulpfile.js
+  - gulpfile.js
   - node_modules
   - package*.json
 
