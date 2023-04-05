@@ -17,7 +17,7 @@ _no_gh=false
 help() {
   echo "Usage:"
   echo
-  echo "   bash /path/to/init [options]"
+  echo "   bash /path/to/init.sh [options]"
   echo
   echo "Options:"
   echo "     --no-gh              Do not deploy to Github."
@@ -77,11 +77,6 @@ check_env() {
   _check_init
 }
 
-checkout_latest_release() {
-  hash=$(git log --grep="chore(release):" -1 --pretty="%H")
-  git reset --hard "$hash"
-}
-
 init_files() {
   if $_no_gh; then
     rm -rf .github
@@ -96,10 +91,10 @@ init_files() {
     _sedi "s/^img_cdn:.*/img_cdn:/;s/^avatar:.*/avatar:/" _config.yml
   fi
 
-  # remove the other files
+  # remove the other fies
   rm -rf _posts/*
 
-  # build assets
+  # build assest
   npm i && npm run build
 
   # track the js output
@@ -114,7 +109,6 @@ commit() {
 
 main() {
   check_env
-  checkout_latest_release
   init_files
   commit
 }
