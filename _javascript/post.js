@@ -1,17 +1,17 @@
 import { basic, initSidebar, initTopbar } from './modules/layouts';
 import {
-  loadImg,
-  imgPopup,
+  imgExtra,
   initLocaleDatetime,
   initClipboard,
-  toc
+  smoothScroll,
+  initPageviews
 } from './modules/plugins';
 
+basic();
 initSidebar();
 initTopbar();
-loadImg();
-imgPopup();
+imgExtra();
 initLocaleDatetime();
 initClipboard();
-toc();
-basic();
+smoothScroll();
+initPageviews();
