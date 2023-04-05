@@ -27,7 +27,9 @@ html {
 }
 
 body {
-  background: var(--body-bg);
+  background: var(--main-bg);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   font-family: $font-family-base;
@@ -502,6 +504,7 @@ main {
 .img-link {
   color: transparent;
   display: inline-flex;
+  overflow: hidden;
 }
 
 .shimmer {
@@ -1096,10 +1099,7 @@ search {
 #mask {
   display: none;
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0 0 0 0;
   height: 100%;
   width: 100%;
   z-index: 1;
@@ -1231,10 +1231,6 @@ search {
 
         border-radius: 0;
         max-width: none;
-
-        &::before {
-          left: 1rem;
-        }
       }
     }
   }
