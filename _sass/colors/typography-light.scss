@@ -4,8 +4,9 @@
 
 @mixin light-scheme {
   /* Framework color */
-  --main-bg: white;
+  --body-bg: #fafafa;
   --mask-bg: #c1c3c5;
+  --main-bg: white;
   --main-border-color: #f3f3f3;
 
   /* Common color */
