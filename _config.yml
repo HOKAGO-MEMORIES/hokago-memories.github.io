@@ -75,7 +75,7 @@ theme_mode:   dark
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn: 'https://cdn.jsdelivr.net/gh/HOKAGO-MEMORIES/hokago-memories.github.io@main'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/img/5b893a7e-42ac-4738-a9b8-e0c55fc6b267.jpg'
