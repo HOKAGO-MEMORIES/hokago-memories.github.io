@@ -33,7 +33,7 @@ jobs:
         with:
           fetch-depth: 0
           submodules: 'recursive'
-          token: ${{ secrets.POST_TOKEN }}
+          token: ${{ secrets.GHA_TOKEN }}
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
